@@ -1,0 +1,143 @@
+body {
+    background: linear-gradient(45deg, #021686, #068ad6, #7ef1f5, #00f7ff,#00f7ff);
+    background-size: 300% 300%;
+    animation: colors 7s ease infinite;
+    max-width: 900px;
+    margin: auto;
+    position:relative
+
+ 
+  }
+    
+
+
+
+#title, .subtitle, .post_title, .post_title2, .post_title3, .titulo, .ingles, .experiencia {
+
+    color: rgb(0, 0, 0);
+}
+.foto_principal{
+    border: 50px black;
+    border-radius: 50%;
+    margin: left;
+    padding: 350px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.sobre_mim{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.post_title{
+    font-size: 20px;
+    font-style: italic;
+    background: linear-gradient(45deg, #3ea8e6, #3ea8e6, #7ef1f5, #00f7ff,#00f7ff);
+    animation: colors 7s ease infinite;
+    background-size: 300% 300%;
+    padding: 10px;
+    border: 3px solid #000;
+}
+
+.subtitle{
+    font-size: 20px;
+    font-style: italic;
+    background: linear-gradient(45deg, #3ea8e6, #3ea8e6, #7ef1f5, #00f7ff,#00f7ff);
+    animation: colors 7s ease infinite;
+    background-size: 300% 300%;
+    padding: 10px;
+    border: 3px solid #000;
+}
+.post_title2{
+    font-size: 20px;
+    font-style: italic;
+    background: linear-gradient(45deg, #3ea8e6, #3ea8e6, #7ef1f5, #00f7ff,#00f7ff);
+    animation: colors 7s ease infinite;
+    background-size: 300% 300%;
+    padding: 10px;
+    border: 3px solid #000;
+}
+
+.post_title3{
+    font-size: 20px;
+    font-style: italic;
+
+}
+.post {
+
+    background-color: white;
+    padding: 10px;
+    border: 3px solid #000;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+.contatos{
+    background: white;
+    padding: 10px;
+    border: 3px solid #000;
+    margin: 10px;
+    border-radius: 10px;
+}
+.ingles{
+    font-style: italic;
+    background: linear-gradient(45deg, #3ea8e6, #3ea8e6, #7ef1f5, #00f7ff,#00f7ff);
+    animation: colors 7s ease infinite;
+    background-size: 300% 300%;
+    padding: 10px;
+    border: 3px solid #000;
+}
+.experiencia{
+    font-style: italic;
+    background: linear-gradient(45deg, #3ea8e6, #3ea8e6, #7ef1f5, #00f7ff,#00f7ff);
+    animation: colors 7s ease infinite;
+    background-size: 300% 300%;
+    padding: 10px;
+    border: 3px solid #000;
+
+}
+.titulo{
+    font-style: italic;
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+.list_style{
+    list-style-image: url("WHATSAPP.jpg");
+    
+}
+.git_list{
+    list-style-image: url("GITHUB.jpg");
+}
+.link_list{
+    list-style-image: url("LINKEDIN.jpg");
+}
+.out_list{
+    list-style-image: url("OUT.jpg");
+}
+@keyframes colors {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+    0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+    
+  
